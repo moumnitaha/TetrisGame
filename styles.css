@@ -182,22 +182,22 @@ main {
 	top: 0;
 	left: 0;
 	z-index: 4;
-	width: 40px;
-	height: 40px;
+	width: 26px;
+	height: 26px;
 	cursor: pointer;
 }
 
 .bar {
-	width: 30px;
-	height: 4px;
+	width: 24px;
+	height: 3px;
 	background-color: #fff;
-	margin: 6px auto;
+	margin: 4px auto;
 	border-radius: 2px;
 	transition: 0.5s ease;
 }
 
 .bar:nth-child(1) {
-	transform: translateY(10px) rotate(45deg);
+	transform: translateY(7px) rotate(45deg);
 }
 
 .bar:nth-child(2) {
@@ -205,7 +205,7 @@ main {
 }
 
 .bar:nth-child(3) {
-	transform: translateY(-10px) rotate(-45deg);
+	transform: translateY(-7px) rotate(-45deg);
 }
 
 .move .bar:nth-child(1) {
@@ -321,6 +321,16 @@ a {
 	top: 100%;
 	left: 50%;
 	transform: translate(-50%, -100%);
+	color: #fff;
+	font-size: 12px;
+	z-index: -1;
+}
+
+.git {
+	position: fixed;
+	top: 100%;
+	left: 100%;
+	transform: translate(-100%, -100%);
 	color: #fff;
 	font-size: 12px;
 	z-index: -1;

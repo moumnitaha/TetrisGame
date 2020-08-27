@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TetrisGame.JS</title>
+	<script src="https://use.fontawesome.com/3485c48981.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="icon" href="./tetris.ico">
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<script defer type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+	<div class="burger">
+		<div class="bar"></div>
+		<div class="bar"></div>
+		<div class="bar"></div>
+	</div>
+	<div class="how_to">
+		<div class="txt">Please use the <b>UP</b> key to rotate your tetromino, and <b>LEFT</b> and <b>RIGHT</b> to move across the board. Pressing <b>DOWN</b> will speed up the tetromino, and pressing <b class="drp">SPACE</b> will drop the tetromino down. Pressing <b class="enter">Enter</b> will Pause/Resume the Game.<br>Enjoy !.
+		</div>
+	</div>
+	<main>
+		<div class="pause">GAME PAUSED</div>
+		<div class="score">
+			<div class="level_b">LEVEL</div>
+			<div class="level">1</div>
+			<div class="next_tet"></div>
+			<div class="sc">LINES</div>
+			<div class="my_score">0</div>
+			<div class="msg_b">SPEED</div>
+			<div class="msg">0</div>
+		</div>
+	</main>
+	<div class="ngbtn">START NEW GAME</div>
+	<div class="controls">
+		<div class="btns">
+			<button class="up">UP</button>
+			<div class="btns2">
+				<button class="left">LEFT</button>
+				<button class="right">RIGHT</button>
+			</div>
+			<button class="down">DOWN</button>
+		</div>
+		<button class="drop">DROP</button>
+	</div>
+	<div class="dev"><i class="fa fa-code" aria-hidden="true"></i> by <a href="#">Taha</a> with <i class="fa fa-heart" aria-hidden="true"></i></div>
+</body>
+</html>
